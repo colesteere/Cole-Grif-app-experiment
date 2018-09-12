@@ -15,16 +15,15 @@ namespace WebApplication2.Controllers
             return View();
         }
 
-        public IActionResult About()
+        /*public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
 
             return View();
-        }
+        }*/
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
 
             return View();
         }

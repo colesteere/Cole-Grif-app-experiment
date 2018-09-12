@@ -1,4 +1,4 @@
-﻿@model MvcMovie.Models.Movie
+﻿@model MvcMovie.Models.Chores
 
 @{
     ViewData["Title"] = "Delete";
@@ -34,6 +34,12 @@
         </dt>
         <dd>
             @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
         </dd>
     </dl>
     
